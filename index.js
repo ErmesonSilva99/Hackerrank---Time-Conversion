@@ -8,11 +8,11 @@ function timeConversion(s) {
     hour += 12;
   } 
 
-  if ( hour < 10 ) {
+  if (hour < 10) {
     hour = "0" + hour;
   }
 
-  if ( hour == 12 && s[2].includes("AM") ) {
+  if (hour == 12 && s[2].includes("AM")) {
     hour = "00";
   }
 
